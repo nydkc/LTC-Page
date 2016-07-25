@@ -1,10 +1,12 @@
+body{
+  background-color:#0080ff;
+}
 .textcen{
   text-align:center;
 }
 .top{
   width:100%;
   height:400px;
-  background-color:#0080ff ;
   margin:55px 0px 0px 0px;
 }
 *{

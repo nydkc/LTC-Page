@@ -9,3 +9,9 @@
 *{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
+.rpan, .lpan{
+  background-color:;#B0C4DE;
+}
+.mpan{
+  background-color:#fff;
+}

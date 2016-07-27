@@ -24,3 +24,12 @@ margin:auto;
 .padd10{
   padding:10px 0px;
 }
+.faq a{
+ color:#000;
+}
+.faq a:hover{
+ color:#000;
+}
+.faq a:visted{
+ color:#000;
+}

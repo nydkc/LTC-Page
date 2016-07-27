@@ -24,15 +24,15 @@ margin:auto;
 .padd10{
   padding:10px 0px;
 }
-.faq a{
+.faq{
  color:#000;
 }
-.faq a:hover{
+.faq:hover{
  color:#000;
 }
-.faq a:visited{
+.faq:visited{
  color:#000;
 }
-.faq a:active{
+.faq:active{
  color:#000;
 }

@@ -26,6 +26,7 @@ margin:auto;
 }
 .faq a{
  color:#000;
+ font-weight:bold;
 }
 .faq a:hover{
  color:#000;

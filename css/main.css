@@ -14,7 +14,9 @@
   color:#ffffff;
 }
 .img1{
-
+display:block;
+margin:auto;
+width:40%;
 }
 .btnwhltc{
   margin:auto;

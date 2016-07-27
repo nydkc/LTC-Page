@@ -30,6 +30,9 @@ margin:auto;
 .faq a:hover{
  color:#000;
 }
-.faq a:visted{
+.faq a:visited{
+ color:#000;
+}
+.faq a:active{
  color:#000;
 }

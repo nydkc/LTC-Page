@@ -24,20 +24,3 @@ margin:auto;
 .padd10{
   padding:10px 0px;
 }
-.faq{
-  text-decoration:none;
-  color:#000;
-}
-.faq:hover{
-  color:#000;
-  text-decoration:underline;
-}
-.faq:link {
-  color: #000;
-}
-.faq:visited {
-  color: #000;
-}
-.faq:active {
-  color: #000;
-}

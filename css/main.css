@@ -24,3 +24,10 @@ margin:auto;
 .padd10{
   padding:10px 0px;
 }
+.faq{
+  text-decoration:none;
+  color:black;
+}
+.faq:hover{
+  text-decoration:underline;
+}

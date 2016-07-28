@@ -38,13 +38,13 @@ margin:auto;
   margin:0;
   padding:0;
   overflow:hidden;
-  background-color:#fff;
+  background-color:#333;
   position:fixed;
 }
 .fright{
   float:right;
 }
-.mainnav li{
+.mainnav a{
   display:block;
   color:#9d9d9d;
   text-align:center;

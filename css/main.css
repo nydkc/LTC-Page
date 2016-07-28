@@ -33,3 +33,24 @@ margin:auto;
 .faq:active{
  color:#000;
 }
+.mainnav{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#333;
+  position:fixed;
+}
+.fright{
+  float:right;
+}
+.mainnav li{
+  display:block;
+  color:#9d9d9d;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+.mainnav a:hover{
+  color:#fff;
+}

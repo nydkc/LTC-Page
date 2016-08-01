@@ -46,7 +46,7 @@
      </div> 
      <div class="container-fluid">
       <p style="padding:50px 0px 0px 0px"> </p>
-      <div id="Desmond"></div>
+      <div id="Desmond" style="width:1407px;height:650px;"></div>
      </div>
     </body>
     <script>
@@ -63,16 +63,18 @@
      });
      marker.setMap(map);
      var info = new google.maps.InfoWindow({
-      content:"The Desmond Hotel! C:"
+      content:"The Desmond Hotel C:"
      });
      info.open(map,marker);
     }
     google.maps.event.addDomListener(window, 'load', initialize);
     </script>
     <style>
-     #Desmond{
-      width:1407px;
-      height:650px;
+     @media screen and (max-width: 1406px) {
+    .img1{
+      width:100%;
+      height:auto;
      }
+    }
     </style>
   </html>

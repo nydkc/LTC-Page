@@ -45,23 +45,34 @@
       </div>
      </div> 
      <div class="container-fluid">
-      <div id="Desmond" style="width:600px;height:480px;padding:50px 0px 0px 0px;"></div>
+      <div id="Desmond"></div>
      </div>
     </body>
     <script>
     function initialize() {
      var desloc=new google.maps.LatLng(42.7282,-73.7987);
-     var mapProp = {
+     var mapcanvas = {
       center:desloc,
       zoom:15,
       mapTypeId:google.maps.MapTypeId.ROADMAP
      };
-     var map=new google.maps.Map(document.getElementById("Desmond"), mapProp);
+     var map=new google.maps.Map(document.getElementById("Desmond"), mapcanvas);
      var marker=new google.maps.Marker({
       position:desloc,
      });
      marker.setMap(map);
+     var info = new google.maps.InfoWindow({
+      content:"The Desmond Hotel! C:"
+     });
+     info.open(map,marker);
     }
     google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+    <style>
+     #Desmond{
+      width:100%;
+      height:auto;
+      padding:50px 0px 0px 0px;
+     }
+    </style>
   </html>

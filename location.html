@@ -50,12 +50,17 @@
     </body>
     <script>
     function initialize() {
+     var desloc=new google.maps.LatLng(43.9857491,-74.4707864);
      var mapProp = {
-      center:new google.maps.LatLng(43.9857491,-74.4707864),
+      center:desloc,
       zoom:5,
       mapTypeId:google.maps.MapTypeId.ROADMAP
      };
      var map=new google.maps.Map(document.getElementById("Desmond"), mapProp);
+     var marker=new google.maps.Marker({
+      position:desloc,
+     });
+     marker.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', initialize);
     </script>

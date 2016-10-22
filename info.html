@@ -1,0 +1,194 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>2017 LTC - NYDKC</title>
+
+            <link rel="icon" href="imgs/Key_Club_Logo_normal.png">
+            <link rel="stylesheet" text="text/css" href="stylesheets/main.css">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+            <style>
+                body{
+                    position:relative;
+                }
+                .nav2{
+                    padding:150px 0px 0px 0px;
+                    position:fixed;
+                }
+                #GI, #CS, #F, #S, #FSP, #FAQ{
+                    padding:50px 0px 0px 0px;
+                }
+                @media screen and (max-width: 775px) {
+                    #myScrollspy {
+                        display: none;
+                    }
+                }
+            </style>
+
+        </head>
+        <body data-spy="scroll" data-target="#myScrollspy" data-offset="5">
+            <div ng-app="inform" ng-controller="infoctrl">
+
+        <!-- Navigation -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color:rgba(16,16,16,0.8);">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">LTC 2017</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li class="active"><a href="info.html"><span class="glyphicon glyphicon-info-sign"></span> Info & Resources</a></li>
+                        <li><a href="awards.html"><span class="glyphicon glyphicon-certificate"></span> Awards</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Register</a></li>
+                    </ul>
+               </div>
+           </div>
+        </div>
+
+        <!-- Navigation End -->
+
+        <!-- Content -->
+
+                <div class="container-fluid">
+                    <div class="scrollspy1">
+                        <nav class="col-xs-3" id="myScrollspy">
+                            <ul class="nav nav-pills nav-stacked nav2">
+                                <li class="active"><a href="#GI">General Information</a></li>
+                                <li><a href="#CS">Conference Staff</a></li>
+                                <li><a href="#F">Forms</a></li>
+                                <li><a href="#S">Schedule</a></li>
+                                <li><a href="#FSP">Fundraisers and Service Projects</a></li>
+                                <li><a href="#FAQ">FAQ</a></li>
+                            </ul>
+                        </nav>
+                        <div class="{{screenwidth}} textcen">
+
+                            <div id="GI">
+                                <h2 class="textcen titl" style="padding:0px 0px 5px 0px">General Information</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href=".ageninfo" class="faq" data-toggle="collapse">2017 Leadership Training Conference</a></div>
+                                    <div class="panel-body collapse in ageninfo">
+                                        <p class="textcen">Date: {{ ltc_date }}
+                                            <br>Location: <a href="location.html">{{ ltc_location }}</a>
+                                            <br>Theme: {{ theme }}
+                                            <br><br>Join us as we celebrate another service year with outstanding keynote speakers, workshops, networking events, officer elections, and tons of social opportunities! Check out the conference website to learn more about the conference.
+                                            <br><u>Registration</u>
+                                            <br>Registration will begin in October 2016
+                                            <br>Key Club Member: {{ member_price }}
+                                            <br>Key Club Advisor/Chaperone: {{ double_adultprice }}
+                                            <br>Key Club Advisor/Chaperone: {{ single_adultprice }}
+                                            <br>Registration Priority/Guarantee Deadline: {{ priority_deadline }}
+                                            <br>Online Registration Deadline: {{ online_deadline }}
+                                            <br>Payment Deadline: {{ payment_deadline }}
+                                            <br>Contact the NY Key Club Conference Staff at <a href="mailto:{{ conference_email }}">{{ conference_email }}</a>.
+                                            <br><br>Please Note, Key Clubs that are traveling to LTC via public transportation are responsible for their own transportation to/from the train station. The hotel and/or Key Club does not provide transportation.
+                                            <br><br>Key Club does suggest <a href="http://www.durhamschoolservices.com/Pages/default.aspx">Durham School Services</a> for transportation rental.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="CS">
+                                <h2 class="textcen">Conference Staff</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href=".aconstaff" class="faq" data-toggle="collapse">Conference Staff Registration</a></div>
+                                    <div class="panel-body collapse in aconstaff">
+                                        <p class="textcen">The Conference Staff works to ensure that all aspects of the New York District Key Club Leadership Training Conference occur as seamlessly as possible. Staff members will be responsible for assisting with making the Conference a fun-filled, successful and safe event for all participants. Responsibilities will include, but are not limited to: manning the security desk; checking workshop rooms to ensure all materials are present and working; assisting with hall patrols; and assisting in the smooth transition of participants between events. You must be able to arrive at The Desmond Hotel on Thursday, March 30, 2017.
+                                            <br><br><br> Any Key Clubber not on the New York District Board, in good standing with Key Club International and the New York District, may apply to be a member of the Conference Staff.
+                                            <br><br><br>In order to be a Conference Staff Member Member you MUST:
+                                            <br>Complete the application online and have one (1) letter of recommendation.
+                                            <br>Be able to be available during the entire conference to complete various tasks.
+                                            <br>Reside in a room with other Conference Staff members.
+                                            <br>Provide their own transportation from the conference.
+                                            <br>Conference Staff Members will get a discounted LTC Registration rate of $100.
+                                            <br>In addition, transportation on Thursday will be arranged by the New York District Key Club; however, Conference Staff will return home with their clubs.
+                                            <br><br><br>The 2017 Conference Staff Application will be available in November 2016.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="textcen" id="F">
+                                <h2>Forms</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href=".form" class="faq" data-toggle="collapse">Election Forms</a></div>
+                                    <div class="panel-body collapse in form">
+                                        <u>Executive Officer Agreement</u>
+                                        <br>The Executive Officer Agreement is a document that consist of information on running for an Executive Position: Governor, Secretary, and Treasurer. The document gives a brief description of each executive position and what role does each position plays in the New York District. Also, the Executive Officer Agreement contains a form that must be filled out by each candidate and the form must be mailed no later than February 1st to the District Administrator, John Goldstein. A copy to the Executive Officer Agreement can be found <a href="static/ExecutiveOfficer_Agreement_Info-1.pdf">here</a> or below.
+                                        <br>
+                                        <br>
+                                        <u>Endorsement for International Office</u>
+                                        <br>The Endorsement for International Office is a document that consist of information on running for an International Position: International Trustee, Vice President and President. The document gives a desciption of each international position and what role does each position plays in Key Club International. Also, the Endorsement for International has an agreement that must be filled out by each international candidate. A copy to the Endorsement for International Office can be found <a href="static/InternationalEndorsement_Agreement_Info1.pdf">here</a> or below.
+                                        <br>
+                                        <br>
+                                        <u>Election Packet</u>
+                                        <br>The Election Packet covers information regarding seeking office for the 2017-2018 Key Club year. This packet covers procedures, rules, speeches, paperwork, responsibilities, and more. A copy of the Elections Packet can be found <a href="static/NYDKC Elections Packet.pdf">here</a> or below.
+                                        <br>
+                                        <br>
+                                        <u>Medical Release Form</u>
+                                        <br>The Medical Release Form must be completed and held onto by all attendees of the Leadership Training Conference. This form helps identify and helps us ensure the safety of the attendee. A copy of the Medical Release Form can be found <a href="static/MedicalReleaseForm-copy.pdf">here</a> or below.
+                                        <br>
+                                        <br>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Election Forms <span class="caret"></span></button>
+                                                 <ul class="dropdown-menu" role="menu">
+                                                      <li><a href="static/ExecutiveOfficer_Agreement_Info-1.pdf">Executive Officer Agreement</a></li>
+                                                      <li><a href="static/InternationalEndorsement_Agreement_Info1.pdf">Endorsement for International Office Agreement</a></li>
+                                                      <li><a href="static/NYDKC Elections Packet.pdf">Elections Packet</a></li>
+                                                 </ul>
+                                            <a href="static/KEY-CLUB-DELEGATE-REGISTRATION-FORM1.pdf" class="btn btn-info">Key Club Delegate Registration Form</a>
+                                            <a href="static/MedicalReleaseForm-copy.pdf" class="btn btn-info">Medical Release Form</a>
+                                            <a href="static/Early-Arrival-Activities-copy.pdf" class="btn btn-info">Early Arrival Activities Copy</a>
+                                            <a href="static/fw9.pdf" class="btn btn-info">W-9 Form</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="S">
+                                <h2 class="textcen">Schedule</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href=".aschedule" class="faq" data-toggle="collapse">2017 Schedule</a></div>
+                                    <div class="panel-body collpase in aschedule">More information on the Leadership Training Conference schedule will be released in fall 2016.</div>
+                                </div>
+                            </div>
+
+                            <div id="FSP">
+                                <h2 class="textcen">Fundraisers and Service Projects</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href=".afsp" class="faq" data-toggle="collapse">2017 Fundraisers and Service Projects</a></div>
+                                    <div class="panel-body collpase in afsp">More information on the Leadership Training Conference schedule will be released in fall 2016.</div>
+                                </div>
+                            </div>
+
+                            <div id="FAQ">
+                                <h2 class="textcen">FAQ</h2>
+                                <div class="panel panel-default" ng-repeat="x in questions">
+                                    <div class="panel-heading"><a href=".{{ x.ref }}" class="faq" data-toggle="collapse"><span class="glyphicon glyphicon-question-sign"></span>{{ x.ques }}</a></div>
+                                    <div class="panel-body {{ x.collapse }} {{ x.ref }}">{{ x.ans }}</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- End Content -->
+
+        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="js/static.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>$('a[href^="#"]').on('click', function(event) {var target = $(this.getAttribute('href'));if( target.length ) {event.preventDefault();$('html, body').stop().animate({scrollTop: target.offset().top}, 1000);}});</script>
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-82046900-1', 'auto');ga('send', 'pageview');</script>
+    </html>

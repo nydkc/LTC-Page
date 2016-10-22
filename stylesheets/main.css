@@ -1,0 +1,93 @@
+.navbar-default{
+    background-color: #111;
+}
+.textcen{
+  text-align:center;
+}
+.titl{
+  margin:60px 0px 0px 0px;
+}
+*{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.regbtn{
+  margin:7px 0px 0px 0px;
+  padding:7px 5px 5px 5px;
+  background-color:#337ab7;
+  color:#ffffff;
+}
+.faq{
+ color:#000;
+}
+.faq:hover{
+ color:#000;
+}
+.faq:visited{
+ color:#000;
+}
+.faq:active{
+ color:#000;
+}
+.navbar{
+    opacity: 50%;
+}
+.parallax1{
+    /* The image used */
+    background-image: url("../imgs/LTCbackgroundimg.jpg");
+    /* Set a specific height */
+    min-height: 725px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.parallax1 a{
+    display: block;
+    text-align: center;
+}
+.parallax1 span{
+    top: 675px;
+    font-size: 50px;
+    color:#fff;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    text-align: center;
+    color:#000;
+}
+.caption span.border{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.parallax1 p{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+#belowcover h1{
+    margin-top:60px;
+    text-align: center;
+}
+#belowcover p{
+    text-align: center;
+    font-size: 18px;
+}
+#belowcover iframe{
+    width:560px;
+    height:315px;
+    display:block;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+#belowcover .regbut{
+    display:block;
+    text-align: center;
+}

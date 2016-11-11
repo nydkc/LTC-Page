@@ -4,7 +4,7 @@ Date: March 30th, 2017 - April 1st, 2017<br>
 Location: Desmond Hotel<br>
 <br>
 <br>
-<u>Skills</u>
+<p style="text-decoration:underline;">Skills</p><br>
 HTML, CSS (Obviously :^])<br>
 Basic Knowledge of Javascript<br>
 Bootstrap Framework<br>

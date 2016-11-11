@@ -18,7 +18,7 @@
                     padding:150px 0px 0px 0px;
                     position:fixed;
                 }
-                #GI, #CS, #F, #S, #FSP, #FAQ{
+                #GI, #CS, #GF, #EF, #S, #FSP, #FAQ{
                     padding:50px 0px 0px 0px;
                 }
                 @media screen and (max-width: 775px) {
@@ -66,7 +66,8 @@
                             <ul class="nav nav-pills nav-stacked nav2">
                                 <li class="active"><a href="#GI">General Information</a></li>
                                 <li><a href="#CS">Conference Staff</a></li>
-                                <li><a href="#F">Forms</a></li>
+                                <li><a href="#GF">General Forms</a></li>
+                                <li><a href="#EF">Election Forms</a></li>
                                 <li><a href="#S">Schedule</a></li>
                                 <li><a href="#FSP">Fundraisers and Service Projects</a></li>
                                 <li><a href="#FAQ">FAQ</a></li>
@@ -117,11 +118,38 @@
                                 </div>
                             </div>
 
-                            <div class="textcen" id="F">
-                                <h2>Forms</h2>
+                            <div class="textcen" id="GF">
+                                <h2>General Forms</h2>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"><a href=".form" class="faq" data-toggle="collapse">Forms</a></div>
-                                    <div class="panel-body collapse in form">
+                                    <div class="panel-heading"><a href=".gform" class="faq" data-toggle="collapse">Forms</a></div>
+                                    <div class="panel-body collapse in gform">
+                                        <u>Medical Release Form</u>
+                                        <br>The Medical Release Form must be completed and held onto by all attendees of the Leadership Training Conference. This form helps identify and helps us ensure the safety of the attendee. A copy of the Medical Release Form can be found <a href="static/MedicalReleaseForm-copy.pdf">here</a> or below.
+                                        <br>
+                                        <br>
+                                        <u>Early Arrival Activities</u>
+                                        <br>Arrived early to LTC? Have nothing to do? Well take a look at the Early Arrival Activities informational. A copy of the Early Arrival Activities informational can be found <a herf="Early-Arrival-Activities-copy.pdf">here</a> or below!
+                                        <br>
+                                        <br>
+                                        <u>Program Ad Form</u>
+                                        <br>Interested in placing an advertisement in this year's conference program? Well here is your chance! The New York District Key Club is selling advertisements to help cover the costs of this year’s program for the Annual Leadership Training Conference! The space you purchase can be used for text and / or graphics! A link to the form can be found <a href="https://fs8.formsite.com/slld/form285/index.html">here</a> or below!
+                                        <br>
+                                        <br>
+                                        <div class="btn-group-vertical">
+                                            <a href="static/MedicalReleaseForm-copy.pdf" class="btn btn-info">Medical Release Form</a>
+                                            <a href="static/Early-Arrival-Activities-copy.pdf" class="btn btn-info">Early Arrival Activities</a>
+                                            <a href="https://fs8.formsite.com/slld/form285/index.html" class="btn btn-info">Program Ad Form</a>
+                                            <a href="static/fw9.pdf" class="btn btn-info">W-9 Form</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="textcen" id="EF">
+                                <h2>Election Forms</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href=".eform" class="faq" data-toggle="collapse">Forms</a></div>
+                                    <div class="panel-body collapse in eform">
                                         <u>Executive Officer Agreement</u>
                                         <br>The Executive Officer Agreement is a document that consist of information on running for an Executive Position: Governor, Secretary, and Treasurer. The document gives a brief description of each executive position and what role does each position plays in the New York District. Also, the Executive Officer Agreement contains a form that must be filled out by each candidate and the form must be mailed no later than February 1st to the District Administrator, John Goldstein. A copy to the Executive Officer Agreement can be found <a href="static/ExecutiveOfficer_Agreement_Info-1.pdf">here</a> or below.
                                         <br>
@@ -134,21 +162,15 @@
                                         <br>The Election Packet covers information regarding seeking office for the 2017-2018 Key Club year. This packet covers procedures, rules, speeches, paperwork, responsibilities, and more. A copy of the Elections Packet can be found <a href="static/NYDKC Elections Packet.pdf">here</a> or below.
                                         <br>
                                         <br>
-                                        <u>Medical Release Form</u>
-                                        <br>The Medical Release Form must be completed and held onto by all attendees of the Leadership Training Conference. This form helps identify and helps us ensure the safety of the attendee. A copy of the Medical Release Form can be found <a href="static/MedicalReleaseForm-copy.pdf">here</a> or below.
+                                        <u>Key Club Delegate Registration</u>
+                                        <br>The Key Club Delegate Registration Form is a document that must be filled out by four school representative, two official delegates and two alternate delegates, in order to participate at the House of Delegates Session. A copy of the Key Club Delegate Registration Form can be found <a href="static/KEY-CLUB-DELEGATE-REGISTRATION-FORM1.pdf">here</a> or below.
                                         <br>
                                         <br>
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Election Forms <span class="caret"></span></button>
-                                                 <ul class="dropdown-menu" role="menu">
-                                                      <li><a href="static/ExecutiveOfficer_Agreement_Info-1.pdf">Executive Officer Agreement</a></li>
-                                                      <li><a href="static/InternationalEndorsement_Agreement_Info1.pdf">Endorsement for International Office Agreement</a></li>
-                                                      <li><a href="static/NYDKC Elections Packet.pdf">Elections Packet</a></li>
-                                                 </ul>
+                                        <div class="btn-group-vertical">
                                             <a href="static/KEY-CLUB-DELEGATE-REGISTRATION-FORM1.pdf" class="btn btn-info">Key Club Delegate Registration Form</a>
-                                            <a href="static/MedicalReleaseForm-copy.pdf" class="btn btn-info">Medical Release Form</a>
-                                            <a href="static/Early-Arrival-Activities-copy.pdf" class="btn btn-info">Early Arrival Activities Copy</a>
-                                            <a href="static/fw9.pdf" class="btn btn-info">W-9 Form</a>
+                                            <a href="static/ExecutiveOfficer_Agreement_Info-1.pdf" class="btn btn-info">Executive Officer Agreement</a>
+                                            <a href="static/InternationalEndorsement_Agreement_Info1.pdf" class="btn btn-info">Endorsement for International Office Agreement</a>
+                                            <a href="static/NYDKC Elections Packet.pdf" class="btn btn-info">Elections Packet</a>
                                         </div>
                                     </div>
                                 </div>

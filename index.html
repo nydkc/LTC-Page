@@ -56,6 +56,14 @@
 
         <!-- Navigation End -->
         <!-- Content -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script>
+                $(window).ready(function (){
+                   var screen_height = $(window).height();
+                   $(".parallax1").css("min-height",screen_height);
+                   console.log(screen_height); 
+                });
+            </script>
             <div class="parallax1" style="margin-top:0;text-align:center;">
                 <div class="caption">
                     <span class="border">69th Annual Leadership Training Conference</span>
@@ -95,7 +103,6 @@
         <!-- End Content-->
 
         </body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script>$(document).ready(function(){$('[data-toggle="popover"]').popover();});</script>
         <script src="js/flipclock.js"></script>

@@ -61,6 +61,7 @@
                 $(window).ready(function (){
                    var screen_height = $(window).height();
                    $(".parallax1").css("min-height",screen_height);
+                    $(".parallax1 span").css("top",screen_height-75);
                    console.log(screen_height); 
                 });
             </script>
@@ -69,7 +70,7 @@
                     <span class="border">69th Annual Leadership Training Conference</span>
                     <p>March 31st - April 2nd</p>
                 </div>
-                <a href="#carrot"><span class="glyphicon glyphicon-chevron-down"></span></a>
+                <a href="#carrot"><span class="glyphicon glyphicon-chevron-down carrot"></span></a>
             </div>
             <div id="carrot"></div>
             <h1 class="ltitle">69th Annual Leadership Training Conference</h1>

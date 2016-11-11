@@ -5,5 +5,8 @@ Location: Desmond Hotel<br>
 <br>
 <br>
 <u>Skills</u>
-HTML, CSS (Obviously 
-Bootstrap
+HTML, CSS (Obviously :^])<br>
+Basic Knowledge of Javascript<br>
+Bootstrap Framework<br>
+Angular Js<br>
+

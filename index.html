@@ -60,14 +60,20 @@
             <script>
                 $(window).ready(function (){
                    var screen_height = $(window).height();
+                   var screen_width = $(window).width();
                    $(".parallax1").css("min-height",screen_height);
-                    $(".parallax1 span").css("top",screen_height-75);
-                   console.log(screen_height); 
+                   if (screen_width > 1450)
+                    $(".parallax1 span.carrot").css("top",screen_height-470);
+                   else
+                    $(".parallax1 span.carrot").css("top",screen_height-520);
+                   console.log(screen_height);
+                   console.log(screen_width);
                 });
             </script>
-            <div class="parallax1" style="margin-top:0;text-align:center;">
+            <div class="parallax1">
+                <p style="padding-bottom:300px;"></p>
                 <div class="caption">
-                    <h1 style="width:70%;display:block;margin:0 auto;">69th Annual Leadership Training Conference</h1>
+                    <h1>69th Annual Leadership Training Conference</h1>
                     <p>March 31st - April 2nd</p>
                 </div>
                 <a href="#carrot"><span class="glyphicon glyphicon-chevron-down carrot"></span></a>

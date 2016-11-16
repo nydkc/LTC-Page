@@ -32,6 +32,7 @@
     opacity: 50%;
 }
 .parallax1{
+    text-align: center;
     /* The image used */
     background-image: url("../imgs/LTCbackgroundimg.jpg");
     /* Set a specific height */
@@ -43,33 +44,21 @@
     background-repeat: no-repeat;
     background-size: auto;
 }
-.parallax1 a{
-    display: block;
-    text-align: center;
-}
-.parallax1 span{
-    top: 675px;
-    font-size: 50px;
-    color:#fff;
-}
 .caption{
-    position: absolute;
-    left: 0;
-    top: 40%;
-    text-align: center;
-    color:#000;
+    border-radius: 10px;
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
 }
 .caption h1{
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    color: #fff;
-    font-size: 50px;
-    letter-spacing: 10px;
-}
-.parallax1 p{
     text-align: center;
-    color: #fff;
-    margin-top: 20px;
+    font-size: 50px;
+}
+.parallax1 span.carrot{
+    font-size: 50px;
+    color:#fff;
 }
 #belowcover h1{
     font-size: 28px;

@@ -18,15 +18,19 @@
 }
 .faq{
  color:#000;
+ text-decoration: none;
 }
 .faq:hover{
  color:#000;
+ text-decoration: none;
 }
 .faq:visited{
- color:#000;
+color:#000;
+ text-decoration: none;
 }
 .faq:active{
  color:#000;
+ text-decoration: none;
 }
 .navbar{
     opacity: 50%;

@@ -1,3 +1,6 @@
+.body{
+    width:1600px !improtant;
+}
 .navbar-default{
     background-color: #111;
 }
@@ -87,4 +90,25 @@ color:#000;
 }
 .ltitle{
     display:none;
+}
+.keynote-overview{
+    margin-top:10px;
+}
+.keynote-overview h4{
+    text-decoration: underline;
+    text-align: center;
+}
+.keynote-content-left img{
+    display:block;
+    float:left;
+    margin-right:10px;
+}
+.keynote-content-right img{
+    display:block;
+    float:left;
+    margin-right:10px;
+}
+.keynote-subcontent-right{
+    width:58%;
+    float:left;
 }

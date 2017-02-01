@@ -19,12 +19,16 @@
                     padding:150px 0px 0px 0px;
                     position:fixed;
                 }
-                #GI, #CS, #GF, #EF, #S, #FSP, #FAQ{
+                #GI, #CS, #GF, #EF, #S, #FSP, #FAQ, #keynote{
                     padding:50px 0px 0px 0px;
                 }
                 @media screen and (max-width: 775px) {
                     #myScrollspy {
                         display: none;
+                    }
+                    .keynote-subcontent-right{
+                        width:100%;
+                        float:none;
                     }
                 }
             </style>
@@ -66,6 +70,7 @@
                         <nav class="col-xs-3" id="myScrollspy">
                             <ul class="nav nav-pills nav-stacked nav2">
                                 <li class="active"><a href="#GI">General Information</a></li>
+                                <li><a href="#keynote">Keynote Speakers</a></li>
                                 <li><a href="#CS">Conference Staff</a></li>
                                 <li><a href="#GF">General Forms</a></li>
                                 <li><a href="#EF">Election Forms</a></li>
@@ -74,10 +79,10 @@
                                 <li><a href="#FAQ">FAQ</a></li>
                             </ul>
                         </nav>
-                        <div class="{{screenwidth}} textcen">
+                        <div class="{{screenwidth}}">
 
-                            <div id="GI">
-                                <h2 class="textcen titl" style="padding:0px 0px 5px 0px">General Information</h2>
+                            <div id="GI" class="textcen">
+                                <h2 class="titl" style="padding:0px 0px 5px 0px">General Information</h2>
                                 <div class="panel panel-default">
                                     <div class="panel-heading"><a href=".ageninfo" class="faq" data-toggle="collapse">2017 Leadership Training Conference</a></div>
                                     <div class="panel-body collapse in ageninfo">
@@ -85,7 +90,6 @@
                                             <br>Location: <a href="location.html">{{ ltc_location }}</a>
                                             <br>Theme: {{ theme }}
                                             <br><br>Join us as we celebrate another service year with outstanding keynote speakers, workshops, networking events, officer elections, and tons of social opportunities! Check out the conference website to learn more about the conference.
-                                            <br>This year's keynote speakers will be John Shertzer and Jon Vroman. Click <a href="static/LTC Keynote Preview.pdf">here</a> to learn more about them!
                                             <br><u>Registration</u>
                                             <br>Registration is out! You can register <a href="https://www.regonline.com/nydltc2017">here</a>!
                                             <br>Key Club Member: {{ member_price }}
@@ -96,7 +100,42 @@
                                             <br>Payment Deadline: {{ payment_deadline }}
                                             <br>Contact the NY Key Club Conference Staff at <a href="mailto:{{ conference_email }}">{{ conference_email }}</a>.
                                             <br><br>Please Note, Key Clubs that are traveling to LTC via public transportation are responsible for their own transportation to/from the train station. The hotel and/or Key Club does not provide transportation.
-                                            <br><br>Key Club does suggest <a href="http://www.durhamschoolservices.com/Pages/default.aspx">Durham School Services</a> for transportation rental.</p>
+                                            <br><br>Key Club does suggest <a href="http://www.durhamschoolservices.com/Pages/default.aspx">Durham School Services</a> for transportation rental. If interested, please contact Shaun Kelly at 518-569-1887 for more information.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="keynote" class="textcen">
+                                <h2 class="textcen" style="padding:0px 0px 5px 0px">Keynote Speakers</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading textcen"><a href=".akeynote" class="faq" data-toggle="collapse">Keynote Speakers</a></div>
+                                    <div class="panel-body collapse in akeynote">
+                                        <div class="keynote-overview">
+                                            <div class="keynote-content-left">
+                                                <img src="imgs/John_Shertzer.png" alt="John Shertzer" width="50%">
+                                                <h4>Friday Night Keynote Speaker</h4>
+                                                <p>John Shertzer is the Chief Programs Officer for Kiwanis International and directs all of our Service Leadership Programs, including Key Club International, Circle K International, Builders Club, K-Kids, Aktion Club, and Key Leader. Over 350,000 individuals experience these clubs each year. John’s career has included work in higher education as a university administrator, work with college fraternities and sororities, and leadership and governance consulting for charitable organizations. These experiences have provided him with many opportunities to speak to audiences in 10 different nations and almost every state in the U.S. John believes that through service clubs, young people can develop “service leadership,” which is the powerful force that occurs when a person discovers their heart to serve, answers their call to lead and summons their courage to engage.  This force can be the answer for our world’s greatest challenges. John belongs to the Kiwanis Club of Northwest Indianapolis. He is also leading efforts to start a new elementary school in central Indianapolis that just opened its doors. John is married to Ellen and they have three boys: Jack, Luke, and Ben. At home and work and everywhere in between, John believes that youth should be entrusted with the future and empowered to shape it. There is no stronger advocate for the voice of the coming generation.</p>
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <div class="keynote-content-right">
+                                                <img src="imgs/Jon_Vroman.png" alt="Jon Vroman" width="40%">
+                                                <div class="keynote-subcontent-right">
+                                                    <h4>Saturday Morning Keynote Speaker</h4>
+                                                    <p>As an international speaker and best- selling author, Jon’s life is dedicated to inspiring others to Live Life In The Front Row™. His mission is to encourage the world’s next generation of leaders to find and develop their individual talents so that they will make the biggest impact within their campus and community. Jon is a two-time recipient of the national APCA Campus Speaker of the Year Award</p>
+                                                    <p style="text-align:center;">Jon operates by five core values:</p>
+                                                    <ol style="width:250px;display:block;margin:auto;">
+                                                        <li>Make authentic connections</li>
+                                                        <li>Create your own reality</li>
+                                                        <li>Be open to change</li>
+                                                        <li>Commit fully</li>
+                                                        <li>Contribute to others</li>
+                                                    </ol>
+                                                    <br>
+                                                    <p>Personally: Jon lives in New Jersey with his wife and son. He’s passionate about squeezing the juice out of life by creating extraordinary experiences with incredible people. His greatest fear looking back on his life and saying, “I wish I would have…” In 2005, Jon founded the charitable organization Front Row Foundation, which has raised over $500,000 to help people braving life- threatening illnesses get front row seats to the concert or sporting event of their dreams.<p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +143,7 @@
                             <div id="CS">
                                 <h2 class="textcen">Conference Staff</h2>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"><a href=".aconstaff" class="faq" data-toggle="collapse">Conference Staff Registration</a></div>
+                                    <div class="panel-heading textcen"><a href=".aconstaff" class="faq" data-toggle="collapse">Conference Staff Registration</a></div>
                                     <div class="panel-body collapse in aconstaff">
                                         <p class="textcen">The Conference Staff works to ensure that all aspects of the New York District Key Club Leadership Training Conference occur as seamlessly as possible. Staff members will be responsible for assisting with making the Conference a fun-filled, successful and safe event for all participants. Responsibilities will include, but are not limited to: manning the security desk; checking workshop rooms to ensure all materials are present and working; assisting with hall patrols; and assisting in the smooth transition of participants between events. You must be able to arrive at The Desmond Hotel on Thursday, March 30, 2017.
                                             <br><br><br> Any Key Clubber not on the New York District Board, in good standing with Key Club International and the New York District, may apply to be a member of the Conference Staff.
@@ -178,7 +217,7 @@
                                 </div>
                             </div>
 
-                            <div id="S">
+                            <div id="S" class="textcen">
                                 <h2 class="textcen">Schedule</h2>
                                 <div class="panel panel-default">
                                     <div class="panel-heading"><a href=".aschedule" class="faq" data-toggle="collapse">2017 Schedule</a></div>
@@ -221,10 +260,10 @@
                                 </div>
                             </div>
 
-                            <div id="FSP">
+                            <div id="FSP" class="textcen">
                                 <h2 class="textcen">Fundraisers and Service Projects</h2>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"><a href=".afsp" class="faq" data-toggle="collapse">2017 Fundraisers and Service Projects</a></div>
+                                    <div class="panel-heading textcen"><a href=".afsp" class="faq" data-toggle="collapse">2017 Fundraisers and Service Projects</a></div>
                                     <div class="panel-body collpase in afsp">More information on the Leadership Training Conference schedule will be released in fall 2016.</div>
                                 </div>
                             </div>
@@ -232,8 +271,8 @@
                             <div id="FAQ">
                                 <h2 class="textcen">FAQ</h2>
                                 <div class="panel panel-default" ng-repeat="x in questions">
-                                    <div class="panel-heading"><a href=".{{ x.ref }}" class="faq" data-toggle="collapse"><span class="glyphicon glyphicon-question-sign"></span>{{ x.ques }}</a></div>
-                                    <div class="panel-body {{ x.collapse }} {{ x.ref }}">{{ x.ans }}</div>
+                                    <div class="panel-heading textcen"><a href=".{{ x.ref }}" class="faq" data-toggle="collapse"><span class="glyphicon glyphicon-question-sign"></span>{{ x.ques }}</a></div>
+                                    <div class="panel-body textcen {{ x.collapse }} {{ x.ref }}">{{ x.ans }}</div>
                                 </div>
                             </div>
 

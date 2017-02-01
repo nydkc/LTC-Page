@@ -5,7 +5,7 @@ var schedule  = {
         {"starttime":"4:45 PM","endtime":"5:30 PM","title":"Candidates Meeting"},
         {"starttime":"5:15 PM","endtime":"6:00 PM","title":"Welcome to LTC Session"},
         {"starttime":"6:15 PM","endtime":"7:15 PM","title":"Dinner (Tribute to Advisors)"},
-        {"starttime":"7:30 PM","endtime":"8:15 PM","title":"Open Session"},
+        {"starttime":"7:30 PM","endtime":"8:15 PM","title":"Opening Session"},
         {"starttime":"8:15 PM","endtime":"8:45 PM","title":"Keynote Speaker: John Shertzer"},
         {"starttime":"9:00 PM","endtime":"9:30 PM","title":"Workshop Round One"},
         {"starttime":"9:45 PM","endtime":"11:15 PM","title":"Playfair"},

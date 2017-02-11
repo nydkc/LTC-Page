@@ -1,3 +1,8 @@
+.center{
+    display: block;
+    margin: auto;
+}
+
 .body{
     width:1600px !improtant;
 }
@@ -111,4 +116,15 @@ color:#000;
 .keynote-subcontent-right{
     width:58%;
     float:left;
+}
+#workshops-container{
+    width:95%;
+}
+#workshops-content{
+    width:300px;
+    border:1px solid #d3d3d3;
+    border-radius: 5px;
+    padding:10px;
+    margin-left:3%;
+    margin-top:10px;
 }

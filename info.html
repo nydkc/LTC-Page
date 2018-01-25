@@ -202,6 +202,162 @@
                                 </div>
                             </div>
 
+                              <div id="keynote" class="textcen">
+                                <h2 class="textcen" style="padding:0px 0px 5px 0px">Keynote Speakers</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading textcen"><a href=".akeynote" class="faq" data-toggle="collapse">Keynote Speakers</a></div>
+                                    <div class="panel-body collapse in akeynote">
+                                        <div class="keynote-overview">
+                                            <div class="keynote-content-left">
+                                                <img src="imgs/John_Shertzer.png" alt="John Shertzer" width="50%">
+                                                <h4>Friday Night Keynote Speaker</h4>
+                                                <p>TBA</p>
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <div class="keynote-content-right">
+                                                <img src="imgs/Jon_Vroman.png" alt="Jon Vroman" width="40%">
+                                                <div class="keynote-subcontent-right">
+                                                    <h4>Saturday Morning Keynote Speaker</h4>
+                                                    <p>TBA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="S" class="textcen">
+                                <h2 class="textcen">Schedule</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href=".aschedule" class="faq" data-toggle="collapse">Tentative 2018 Schedule</a></div>
+                                    <div class="panel-body collpase in aschedule">
+                                        <script id="template" type="text">
+                                            <tr>
+                                                <td>{{starttime}}</td>
+                                                <td>{{endtime}}</td>
+                                                <td>{{title}}</td>
+                                            </tr>
+                                        </script>
+                                        <div class="container-fluid">
+                                            <h1 class="textcen"><a class="fa fa-chevron-left faq" type="button" id="leftclick" aria-hidden="true"></a><span id="date"> Friday, March 23rd, 2018 </span><a style="margin-right:30px;" class="fa fa-chevron-right faq" type="button" id="rightclick" aria-hidden="true"></a></h1>
+                                            <div class="schedule">
+                                                <div class="table-responsive">
+                                                    <table class="table table-striped table-hover">
+                                                        <thead>
+                                                            <th style="text-align:center !important;text-decoration:underline;">Start Time</th>
+                                                            <th style="text-align:center !important;text-decoration:underline;">End Time</th>
+                                                            <th style="text-align:center !important;text-decoration:underline;">Function</th>
+                                                        </thead>
+                                                        <tbody id="tablebody">
+                                                            <script src="js/schedule.js"></script>
+                                                            <script src="js/mustache.js"></script>
+                                                            <script>
+                                                                var rendered = '',x,date = schedule.dayone;
+                                                                var template = $('#template').html();
+                                                                for (x = 1; x < date.length;x++ ){
+                                                                    rendered += Mustache.render(template, date[x]);
+                                                                }
+                                                                $('#tablebody').html(rendered);
+                                                            </script>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                                            
+                                            
+                            
+                            <div id="workshops">
+                                <h2 class="textcen">Workshops</h2>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading textcen"><a href=".workshops" class="faq" data-toggle="collapse">Workshops</a></div>
+                                    <div class="panel-body collapse in workshops">
+                                        <h5 class="textcen">The New York District Key Club will be unmasking the workshops that will be presented at this year's Leadership Training Conference. Below are the workshops that have been revealed so far. As the date of Leadership Training Conference approaches, keep your eye out for another unmasking of workshops!</h5>
+                                        <div class="row">
+                                            <div class="col-md-4" id="workshops-content">
+                                                <h3 class="textcen">Round one of workshops</h3>
+                                                <ul>
+                                                    <li>Improv Acting</li>
+                                                    <li>Unmask the Service: Mask Craft</li>
+                                                    <li>Writing Cards for St. Jude</li>
+                                                    <li>No Sew Blankets</li>
+                                                    <li>Swinging into Service</li>
+                                                    <li>Yuda Bands</li>
+                                                    <li>Wounded Warrior Letters</li>
+                                                    <li>How to Tie a Tie</li>
+                                                    <li>Key Club 101 for Students</li>
+                                                    <li>Key Club 101 for Advisors</li>
+                                                </ul>
+                                            </div>
+                                            <div class="center col-md-4" id="workshops-content">
+                                                <h3 class="textcen">Round two of workshops</h3>
+                                                <ul>
+                                                    <li>Know Your Why: Adding Meaning to Your Work</li>
+                                                    <li>Motivation Game: Combatting Apathy</li>
+                                                    <li>Conflict Management</li>
+                                                    <li>Keeping it Classy: A Guide to Professionalism</li>
+                                                    <li>Balancing School, Life, &amp; Key Club</li>
+                                                    <li>How to be an Effective Leader</li>
+                                                    <li>Members First: Living the Inverted Pyramid</li>
+                                                    <li>Public Speaking</li>
+                                                    <li>Key Club in the Summer</li>
+                                                </ul>
+                                            </div>
+                                            <div class="center col-md-4" id="workshops-content">
+                                                <h3 class="textcen">Round three of workshops</h3>
+                                                <ul>
+                                                    <li>Build a Strong Board: Teamwork and Unity</li>
+                                                    <li>Key Club Networking: Get the Word Out</li>
+                                                    <li>Running for Higher Office</li>
+                                                    <li>Making Meetings Move</li>
+                                                    <li>Membership Recruitment &amp; Retention</li>
+                                                    <li>Make It Happen: Turning Ideas Into Reality</li>
+                                                    <li>The Awards Process</li>
+                                                    <li>Life After Key Club</li>
+                                                    <li>Event Planning</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-4" id="workshops-content">
+                                                <h3 class="textcen">Round four of workshops</h3>
+                                                <ul>
+                                                    <li>Happiness: Reversing the Formula for Success</li>
+                                                    <li>Power of the Member</li>
+                                                    <li>Key Club Trivia</li>
+                                                    <li>President &amp; Vice President</li>
+                                                    <li>Secretaries</li>
+                                                    <li>Treasurers</li>
+                                                    <li>Bulletin Editors &amp; Webmasters</li>
+                                                    <li>Lieutenant Governor-Elect</li>
+                                                    <li>Club Advisor Training</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4" id="workshops-content">
+                                                <h3 class="textcen">Round five of workshops</h3>
+                                                <ul>
+                                                    <li>International Projects &amp; Major Emphasis</li>
+                                                    <li>Kiwanis District Charities</li>
+                                                    <li>Governor's Project: Camp Abilities</li>
+                                                    <li>District Project: Icing Smiles</li>
+                                                    <li>Kiwanis Anti-Bullying Initiative</li>
+                                                    <li>Share the Service: Kiwanis Family Style</li>
+                                                    <li>Large Scale Service Projects</li>
+                                                    <li>The Thirst Project</li>
+                                                    <li>Service on a Dime</li>
+                                                    <li>Key Leader</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h5 class="textcen" style="margin-top:10px">**Please note that workshop offerings are subject to change.**</h5>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div id="FAQ">
                                 <h2 class="textcen">FAQ</h2>
                                 <div class="panel panel-default" ng-repeat="x in questions">

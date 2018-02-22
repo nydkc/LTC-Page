@@ -1,6 +1,6 @@
 var schedule  = {
     "dayone": [
-        {"day":" Friday, March 23, 2018 "},
+        {"day":" Friday, March 23rd, 2018 "},
         {"starttime":"1:00 PM","endtime":"4:00 PM","title":"Registration/ Arrival"},
         {"starttime":"5:30 PM","endtime":"6:00 PM","title":"Candidates Meeting"},
         {"starttime":"5:30 PM","endtime":"6:15 PM","title":"LTC Orientation & Welcome"},
@@ -12,7 +12,7 @@ var schedule  = {
         {"starttime":"12:00 AM","endtime":"7:00 AM","title":"Curfew"}
     ],
     "daytwo": [
-        {"day":" Saturday, March 24, 2018 "},
+        {"day":" Saturday, March 24th, 2018 "},
         {"starttime":"8:30 AM", "endtime":"9:15 AM", "title":"Breakfast"},
         {"starttime":"8:30 AM", "endtime":"9:15 AM", "title":"President & Club Excellence Reception"},
         {"starttime":"9:30 AM", "endtime":"10:15 AM", "title":"Awards & Recogniton Session"},
@@ -29,12 +29,12 @@ var schedule  = {
         {"starttime":"12:00 AM","endtime":"7:00 AM","title":"Curfew"}
     ],
     'daythree': [
-        {"day":" Sunday, March 25, 2018 "},
+        {"day":" Sunday, March 25th, 2018 "},
         {"starttime":"7:15 AM", "endtime":"9:15 AM", "title":"Breakfast"},
         {"starttime":"8:00 AM", "endtime":"9:15 AM", "title":"House of Delegates"},
         {"starttime":"8:30 AM", "endtime":"9:15 AM", "title":"Workshop Round Four"},
         {"starttime":"9:30 AM", "endtime":"11:15 AM", "title":"Closing Session"},
-        {"starttime":"11:30 AM", "endtime":"12:30 PM", "title":"Farewell Brunch"}
+        {"starttime":"11:30 AM", "endtime":"12:30 PM", "title":"Farewell Brunch"},
         {"starttime":"12:30 AM", "endtime":"--:-- PM", "title":"Departure"}
     ]
 }
